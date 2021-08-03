@@ -4,6 +4,8 @@ h1 {
     font-size: 60px;
     margin-bottom: 24px;
     font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 1000px 5px 5px 24px;
 }
 
 body {
@@ -13,4 +15,68 @@ body {
 button {
     background-color:  #025157;
     color: #ffffff;
+}
+
+.header {
+   margin: 40px 20px 0 20px;
+   font-size: 0; 
+   height: 45px;
+   font-family: sans-serif;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+}
+
+main {
+    margin-top: 250px;
+}
+
+li {
+    display: inline;
+}
+
+.logo {
+    width: 20%;
+}
+
+.navbar {
+    width: 60%;
+    text-align: center;
+    color: #025157;
+}
+
+.navbar > ul {
+    padding-left: 0;
+}
+
+/* .navbar > ul > li {
+    padding: 8px;
+} */
+.itemNavegacion {
+    margin: 25px;
+}
+
+.actions {
+    width: 20%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.actions {
+    margin: 0 10px;
+}
+
+.actionSingin {
+   color: #67b54b;
+   text-decoration: none; 
+}
+
+.actions > button {
+    background-color: #67b54b;
+    color: #ffffff;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
 }
