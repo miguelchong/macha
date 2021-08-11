@@ -1,5 +1,6 @@
 body {
   background-color: #fffbf7;
+  margin: 0;
 }
 
 h1 {
@@ -171,4 +172,20 @@ li {
 .promo > article > figure >img {
   width: 120px;
   margin-top: 10px;
+}
+
+.features {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  height: 660px;
+  background-color: #025157;
+  padding: 5% 10%;
+}
+
+.features-card {
+  background-color: #ffffff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
 }
