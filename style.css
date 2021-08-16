@@ -247,3 +247,56 @@ li {
 .features .feature-card .feature-image:hover {
   right: -20px;
 }
+
+@media (max-width: 425px){
+  .navbar,
+  .actions{
+    display: none;
+  }
+  h1{
+    font-size: 30px;
+  }
+  main {
+    margin-top: 130px;
+  }
+  .banner > img {
+    width: 100%;
+  }
+  .intro > img {
+    width: 100%;
+  }
+  .promo {
+    flex-direction: column;
+    width: 90%;
+    margin-top: 25px;
+  }  
+  .explanatory-video > video {
+    width: 100%;
+  }
+  .publish > h3 {
+    font-size: 25px;
+    margin: 10px;
+    line-height: 1.2;
+    text-align: center;
+  }
+  .publish > form {
+    display: flex;
+    flex-direction: column;
+  }
+  .publish > form > div {
+    height: 60px;
+  }
+  .publish > form > div > input {
+  }
+  .features {
+    grid-template: repeat(4, 1fr)/1fr;
+    height: 780;
+    padding: 0 0;
+  }
+  .feature-card{
+    padding: 10px;
+  }
+  .feature-image{
+    display: none;
+  }
+}
